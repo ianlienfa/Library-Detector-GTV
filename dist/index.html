@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- webpack need this, probably because the library import has something requires -->
+    <meta charset="utf-8" />
+    <script src="https://cdn.jsdelivr.net/npm/core-js-bundle@3.39.0/minified.min.js"></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    <script>console.log(Array.from(new Set([1, 2, 3]).union(new Set([3, 4, 5]))))</script>
+    <script src="index.bundle.js"></script>
+    <script src="help.bundle.js"></script>
+    <script>
+      var jq = dummy_query();
+    </script>
+    <script>
+      // dynamically load jQuery
+      (async () => {
+        var $ = await dyn_jq();
+        console.log("dynamically loaded jquery", $().jquery);
+      })();
+    </script>
+  </body>
+</html>
