@@ -2,13 +2,11 @@ const puppeteer = require('puppeteer');
 
 const extensionPath = '~/cmu/Cylab-JSBundle/LibraryDetector';
 const extensionId = 'ebfapkkkphogjknioohflehbelaednlk';
-// const extensionPath = '~/Downloads/PTdetector-main';
-// const extensionId = 'eaghmajgemdmjgngankjclbneojhdpaj';
 
 const port = 9000;
 
 function parseLibraries(libs) {
-    if (libs.length === 0) {
+    if (libs === null || libs.length === 0) {
         return [];
     }
     var libkeys = [];
@@ -40,7 +38,7 @@ const LDC = (async () => {
     await page.goto(`http://localhost:${port}`);
 
     // Increased wait time and added more logging
-    await new Promise(resolve => setTimeout(resolve, 2000)); // Give some time for extension to load
+    await new Promise(resolve => setTimeout(resolve, 2500)); // Give some time for extension to load
 
     // get page content
     const content = await page.content();

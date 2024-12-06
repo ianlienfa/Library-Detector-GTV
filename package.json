@@ -9,6 +9,7 @@
     "webpack-bundle-analyzer": "webpack-bundle-analyzer",
     "build:dev": "webpack --mode development",
     "start:dev": "webpack serve --mode development",
+    "start:none": "webpack serve --mode none",
     "build": "webpack --mode production",
     "start": "webpack serve --mode production"
   },
@@ -16,6 +17,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "core-js": "^3.39.0",
     "d3": "^7.9.0",
     "express": "^4.21.1",
     "jquery": "^3.7.1",

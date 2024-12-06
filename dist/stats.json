@@ -1,8 +1,8 @@
 {
-  "hash": "65d227f1948850a739b8",
+  "hash": "16fe8736ae2226a5b5e6",
   "version": "5.96.1",
-  "time": 1584,
-  "builtAt": 1733241853736,
+  "time": 1243,
+  "builtAt": 1733510696330,
   "publicPath": "/",
   "outputPath": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/dist",
   "assetsByChunkName": {
@@ -17,7 +17,7 @@
     {
       "type": "asset",
       "name": "help.bundle.js",
-      "size": 219971,
+      "size": 219861,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -27,7 +27,7 @@
         "related": {
           "license": "help.bundle.js.LICENSE.txt"
         },
-        "size": 219971
+        "size": 219861
       },
       "chunkNames": [
         "help"
@@ -68,7 +68,7 @@
     {
       "type": "asset",
       "name": "index.bundle.js",
-      "size": 204988,
+      "size": 134184,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -78,7 +78,7 @@
         "related": {
           "license": "index.bundle.js.LICENSE.txt"
         },
-        "size": 204988
+        "size": 134184
       },
       "chunkNames": [
         "index"
@@ -91,13 +91,13 @@
         {
           "type": "license",
           "name": "index.bundle.js.LICENSE.txt",
-          "size": 1308,
+          "size": 971,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "extractedComments": true,
-            "size": 1308
+            "size": 971
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -172,9 +172,9 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 503524,
+      "size": 503749,
       "sizes": {
-        "javascript": 476674,
+        "javascript": 476899,
         "runtime": 26850
       },
       "names": [
@@ -188,7 +188,7 @@
         "help.bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "061ebc3e2ff29378f83d",
+      "hash": "a5a9f7d5a8d9b5a18c1b",
       "childrenByOrder": {},
       "id": 22,
       "siblings": [],
@@ -835,28 +835,28 @@
           "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/jquery/dist/jquery.js",
           "name": "./node_modules/jquery/dist/jquery.js",
           "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/jquery/dist/jquery.js",
-          "index": 30,
-          "preOrderIndex": 30,
-          "index2": 29,
-          "postOrderIndex": 29,
+          "index": 29,
+          "preOrderIndex": 29,
+          "index2": 28,
+          "postOrderIndex": 28,
           "cacheable": true,
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "issuerName": "./src/index.js",
+          "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
+          "issuerName": "./src/help.js",
           "issuerPath": [
             {
-              "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-              "name": "./src/index.js",
-              "id": 44
+              "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
+              "name": "./src/help.js",
+              "id": 689
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 692,
-          "issuerId": 44,
+          "issuerId": 689,
           "chunks": [
             22,
             692
@@ -926,24 +926,10 @@
               "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
               "resolvedModule": "./src/help.js",
               "type": "harmony import specifier",
-              "active": true,
+              "active": false,
               "explanation": "",
               "userRequest": "jquery",
-              "loc": "16:44-45",
-              "moduleId": 689,
-              "resolvedModuleId": 689
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-              "module": "./src/help.js",
-              "moduleName": "./src/help.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-              "resolvedModule": "./src/help.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "jquery",
-              "loc": "17:11-12",
+              "loc": "2:18-19",
               "moduleId": 689,
               "resolvedModuleId": 689
             },
@@ -957,7 +943,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "jquery",
-              "loc": "12:35-51",
+              "loc": "64:32-48",
               "moduleId": 44,
               "resolvedModuleId": 44
             }
@@ -3599,9 +3585,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2264,
+          "size": 2489,
           "sizes": {
-            "javascript": 2264
+            "javascript": 2489
           },
           "built": true,
           "codeGenerated": true,
@@ -3610,10 +3596,10 @@
           "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
           "name": "./src/help.js",
           "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-          "index": 29,
-          "preOrderIndex": 29,
-          "index2": 30,
-          "postOrderIndex": 30,
+          "index": 28,
+          "preOrderIndex": 28,
+          "index2": 29,
+          "postOrderIndex": 29,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3647,9 +3633,11 @@
             }
           ],
           "usedExports": [],
-          "providedExports": [],
+          "providedExports": [
+            "jq"
+          ],
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 19:0-33",
+            "Dependency (harmony side effect evaluation) with side effects at 1:0-23",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/jquery/dist/jquery.js: Module is not an ECMAScript module"
           ],
           "depth": 0
@@ -4080,10 +4068,10 @@
       "initial": true,
       "entry": true,
       "recorded": false,
-      "size": 765204,
+      "size": 221986,
       "sizes": {
-        "javascript": 733670,
-        "runtime": 31534
+        "javascript": 190796,
+        "runtime": 31190
       },
       "names": [
         "index"
@@ -4096,7 +4084,7 @@
         "index.bundle.js"
       ],
       "auxiliaryFiles": [],
-      "hash": "869e31681ed82acbb7f0",
+      "hash": "90d118cb75341ca462a6",
       "childrenByOrder": {},
       "id": 57,
       "siblings": [],
@@ -4734,186 +4722,6 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 544098,
-          "sizes": {
-            "javascript": 544098
-          },
-          "built": true,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "name": "./node_modules/lodash/lodash.js",
-          "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "index": 28,
-          "preOrderIndex": 28,
-          "index2": 27,
-          "postOrderIndex": 27,
-          "cacheable": true,
-          "optional": false,
-          "orphan": false,
-          "dependent": true,
-          "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "issuerName": "./src/index.js",
-          "issuerPath": [
-            {
-              "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-              "name": "./src/index.js",
-              "id": 44
-            }
-          ],
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": 543,
-          "issuerId": 44,
-          "chunks": [
-            57
-          ],
-          "assets": [],
-          "reasons": [
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "module": "./node_modules/lodash/lodash.js",
-              "moduleName": "./node_modules/lodash/lodash.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "resolvedModule": "./node_modules/lodash/lodash.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "439:50-57",
-              "moduleId": 543,
-              "resolvedModuleId": 543
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "module": "./node_modules/lodash/lodash.js",
-              "moduleName": "./node_modules/lodash/lodash.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "resolvedModule": "./node_modules/lodash/lodash.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "439:62-78",
-              "moduleId": 543,
-              "resolvedModuleId": 543
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "module": "./node_modules/lodash/lodash.js",
-              "moduleName": "./node_modules/lodash/lodash.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "resolvedModule": "./node_modules/lodash/lodash.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "439:82-89",
-              "moduleId": 543,
-              "resolvedModuleId": 543
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "module": "./node_modules/lodash/lodash.js",
-              "moduleName": "./node_modules/lodash/lodash.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "resolvedModule": "./node_modules/lodash/lodash.js",
-              "type": "module decorator",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "442:63-69",
-              "moduleId": 543,
-              "resolvedModuleId": 543
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "module": "./node_modules/lodash/lodash.js",
-              "moduleName": "./node_modules/lodash/lodash.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "resolvedModule": "./node_modules/lodash/lodash.js",
-              "type": "module decorator",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "442:74-80",
-              "moduleId": 543,
-              "resolvedModuleId": 543
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "module": "./node_modules/lodash/lodash.js",
-              "moduleName": "./node_modules/lodash/lodash.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "resolvedModule": "./node_modules/lodash/lodash.js",
-              "type": "module decorator",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "442:93-99",
-              "moduleId": 543,
-              "resolvedModuleId": 543
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "module": "./node_modules/lodash/lodash.js",
-              "moduleName": "./node_modules/lodash/lodash.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-              "resolvedModule": "./node_modules/lodash/lodash.js",
-              "type": "cjs self exports reference",
-              "active": true,
-              "explanation": "",
-              "userRequest": null,
-              "loc": "17209:7-11",
-              "moduleId": 543,
-              "resolvedModuleId": 543
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "lodash",
-              "loc": "1:0-23",
-              "moduleId": 44,
-              "resolvedModuleId": 44
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "lodash",
-              "loc": "4:22-28",
-              "moduleId": 44,
-              "resolvedModuleId": 44
-            }
-          ],
-          "usedExports": null,
-          "providedExports": null,
-          "optimizationBailout": [
-            "CommonJS bailout: this is used directly at 17209:7-11",
-            "CommonJS bailout: exports is used directly at 439:50-57",
-            "CommonJS bailout: exports is used directly at 439:82-89",
-            "Statement (ExpressionStatement) with side effects in source code at 9:1-17209:14",
-            "ModuleConcatenation bailout: Module is not an ECMAScript module"
-          ],
-          "depth": 1
-        },
-        {
-          "type": "module",
-          "moduleType": "javascript/auto",
-          "layer": null,
           "size": 1916,
           "sizes": {
             "javascript": 1916
@@ -7536,9 +7344,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 476,
+          "size": 1700,
           "sizes": {
-            "javascript": 476
+            "javascript": 1700
           },
           "built": true,
           "codeGenerated": true,
@@ -7549,8 +7357,8 @@
           "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
           "index": 27,
           "preOrderIndex": 27,
-          "index2": 28,
-          "postOrderIndex": 28,
+          "index2": 27,
+          "postOrderIndex": 27,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -7584,10 +7392,10 @@
             }
           ],
           "usedExports": [],
-          "providedExports": [],
+          "providedExports": null,
           "optimizationBailout": [
-            "Statement (ExpressionStatement) with side effects in source code at 19:0-23",
-            "ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/lodash.js: Module is not an ECMAScript module"
+            "Statement (ExpressionStatement) with side effects in source code at 68:0-29",
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
           ],
           "depth": 0
         },
@@ -7883,42 +7691,6 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 221,
-          "sizes": {
-            "runtime": 221
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/global",
-          "name": "webpack/runtime/global",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            57
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
           "size": 88,
           "sizes": {
             "runtime": 88
@@ -8099,42 +7871,6 @@
           "type": "module",
           "moduleType": "runtime",
           "layer": null,
-          "size": 123,
-          "sizes": {
-            "runtime": 123
-          },
-          "built": false,
-          "codeGenerated": true,
-          "buildTimeExecuted": false,
-          "cached": false,
-          "identifier": "webpack/runtime/node module decorator",
-          "name": "webpack/runtime/node module decorator",
-          "nameForCondition": null,
-          "index": null,
-          "preOrderIndex": null,
-          "index2": null,
-          "postOrderIndex": null,
-          "optional": false,
-          "orphan": false,
-          "dependent": false,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "id": "",
-          "chunks": [
-            57
-          ],
-          "assets": [],
-          "reasons": [],
-          "usedExports": null,
-          "providedExports": [],
-          "optimizationBailout": [],
-          "depth": null
-        },
-        {
-          "type": "module",
-          "moduleType": "runtime",
-          "layer": null,
           "size": 28,
           "sizes": {
             "runtime": 28
@@ -8237,28 +7973,28 @@
           "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/jquery/dist/jquery.js",
           "name": "./node_modules/jquery/dist/jquery.js",
           "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/jquery/dist/jquery.js",
-          "index": 30,
-          "preOrderIndex": 30,
-          "index2": 29,
-          "postOrderIndex": 29,
+          "index": 29,
+          "preOrderIndex": 29,
+          "index2": 28,
+          "postOrderIndex": 28,
           "cacheable": true,
           "optional": false,
           "orphan": false,
           "dependent": false,
-          "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "issuerName": "./src/index.js",
+          "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
+          "issuerName": "./src/help.js",
           "issuerPath": [
             {
-              "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-              "name": "./src/index.js",
-              "id": 44
+              "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
+              "name": "./src/help.js",
+              "id": 689
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": 692,
-          "issuerId": 44,
+          "issuerId": 689,
           "chunks": [
             22,
             692
@@ -8328,24 +8064,10 @@
               "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
               "resolvedModule": "./src/help.js",
               "type": "harmony import specifier",
-              "active": true,
+              "active": false,
               "explanation": "",
               "userRequest": "jquery",
-              "loc": "16:44-45",
-              "moduleId": 689,
-              "resolvedModuleId": 689
-            },
-            {
-              "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-              "module": "./src/help.js",
-              "moduleName": "./src/help.js",
-              "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-              "resolvedModule": "./src/help.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "jquery",
-              "loc": "17:11-12",
+              "loc": "2:18-19",
               "moduleId": 689,
               "resolvedModuleId": 689
             },
@@ -8359,7 +8081,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "jquery",
-              "loc": "12:35-51",
+              "loc": "64:32-48",
               "moduleId": 44,
               "resolvedModuleId": 44
             }
@@ -8381,7 +8103,7 @@
           "module": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
           "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
           "moduleName": "./src/index.js",
-          "loc": "12:35-51",
+          "loc": "64:32-48",
           "request": "jquery",
           "moduleId": 44
         }
@@ -9893,9 +9615,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 476,
+      "size": 1700,
       "sizes": {
-        "javascript": 476
+        "javascript": 1700
       },
       "built": true,
       "codeGenerated": true,
@@ -9906,8 +9628,8 @@
       "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
       "index": 27,
       "preOrderIndex": 27,
-      "index2": 28,
-      "postOrderIndex": 28,
+      "index2": 27,
+      "postOrderIndex": 27,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -9940,10 +9662,10 @@
         }
       ],
       "usedExports": [],
-      "providedExports": [],
+      "providedExports": null,
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 19:0-23",
-        "ModuleConcatenation bailout: Cannot concat with ./node_modules/lodash/lodash.js: Module is not an ECMAScript module"
+        "Statement (ExpressionStatement) with side effects in source code at 68:0-29",
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
       ],
       "depth": 0
     },
@@ -9951,9 +9673,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2264,
+      "size": 2489,
       "sizes": {
-        "javascript": 2264
+        "javascript": 2489
       },
       "built": true,
       "codeGenerated": true,
@@ -9962,10 +9684,10 @@
       "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
       "name": "./src/help.js",
       "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-      "index": 29,
-      "preOrderIndex": 29,
-      "index2": 30,
-      "postOrderIndex": 30,
+      "index": 28,
+      "preOrderIndex": 28,
+      "index2": 29,
+      "postOrderIndex": 29,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -9998,9 +9720,11 @@
         }
       ],
       "usedExports": [],
-      "providedExports": [],
+      "providedExports": [
+        "jq"
+      ],
       "optimizationBailout": [
-        "Statement (ExpressionStatement) with side effects in source code at 19:0-33",
+        "Dependency (harmony side effect evaluation) with side effects at 1:0-23",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/jquery/dist/jquery.js: Module is not an ECMAScript module"
       ],
       "depth": 0
@@ -11553,185 +11277,6 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 544098,
-      "sizes": {
-        "javascript": 544098
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-      "name": "./node_modules/lodash/lodash.js",
-      "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-      "index": 28,
-      "preOrderIndex": 28,
-      "index2": 27,
-      "postOrderIndex": 27,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "name": "./src/index.js",
-          "id": 44
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": 543,
-      "issuerId": 44,
-      "chunks": [
-        57
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "module": "./node_modules/lodash/lodash.js",
-          "moduleName": "./node_modules/lodash/lodash.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "resolvedModule": "./node_modules/lodash/lodash.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "439:50-57",
-          "moduleId": 543,
-          "resolvedModuleId": 543
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "module": "./node_modules/lodash/lodash.js",
-          "moduleName": "./node_modules/lodash/lodash.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "resolvedModule": "./node_modules/lodash/lodash.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "439:62-78",
-          "moduleId": 543,
-          "resolvedModuleId": 543
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "module": "./node_modules/lodash/lodash.js",
-          "moduleName": "./node_modules/lodash/lodash.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "resolvedModule": "./node_modules/lodash/lodash.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "439:82-89",
-          "moduleId": 543,
-          "resolvedModuleId": 543
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "module": "./node_modules/lodash/lodash.js",
-          "moduleName": "./node_modules/lodash/lodash.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "resolvedModule": "./node_modules/lodash/lodash.js",
-          "type": "module decorator",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "442:63-69",
-          "moduleId": 543,
-          "resolvedModuleId": 543
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "module": "./node_modules/lodash/lodash.js",
-          "moduleName": "./node_modules/lodash/lodash.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "resolvedModule": "./node_modules/lodash/lodash.js",
-          "type": "module decorator",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "442:74-80",
-          "moduleId": 543,
-          "resolvedModuleId": 543
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "module": "./node_modules/lodash/lodash.js",
-          "moduleName": "./node_modules/lodash/lodash.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "resolvedModule": "./node_modules/lodash/lodash.js",
-          "type": "module decorator",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "442:93-99",
-          "moduleId": 543,
-          "resolvedModuleId": 543
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "module": "./node_modules/lodash/lodash.js",
-          "moduleName": "./node_modules/lodash/lodash.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/lodash/lodash.js",
-          "resolvedModule": "./node_modules/lodash/lodash.js",
-          "type": "cjs self exports reference",
-          "active": true,
-          "explanation": "",
-          "userRequest": null,
-          "loc": "17209:7-11",
-          "moduleId": 543,
-          "resolvedModuleId": 543
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "lodash",
-          "loc": "1:0-23",
-          "moduleId": 44,
-          "resolvedModuleId": 44
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "lodash",
-          "loc": "4:22-28",
-          "moduleId": 44,
-          "resolvedModuleId": 44
-        }
-      ],
-      "usedExports": null,
-      "providedExports": null,
-      "optimizationBailout": [
-        "CommonJS bailout: this is used directly at 17209:7-11",
-        "CommonJS bailout: exports is used directly at 439:50-57",
-        "CommonJS bailout: exports is used directly at 439:82-89",
-        "Statement (ExpressionStatement) with side effects in source code at 9:1-17209:14",
-        "ModuleConcatenation bailout: Module is not an ECMAScript module"
-      ],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
       "size": 285314,
       "sizes": {
         "javascript": 285314
@@ -11743,27 +11288,27 @@
       "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/jquery/dist/jquery.js",
       "name": "./node_modules/jquery/dist/jquery.js",
       "nameForCondition": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/node_modules/jquery/dist/jquery.js",
-      "index": 30,
-      "preOrderIndex": 30,
-      "index2": 29,
-      "postOrderIndex": 29,
+      "index": 29,
+      "preOrderIndex": 29,
+      "index2": 28,
+      "postOrderIndex": 28,
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-      "issuerName": "./src/index.js",
+      "issuer": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
+      "issuerName": "./src/help.js",
       "issuerPath": [
         {
-          "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/index.js",
-          "name": "./src/index.js",
-          "id": 44
+          "identifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
+          "name": "./src/help.js",
+          "id": 689
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": 692,
-      "issuerId": 44,
+      "issuerId": 689,
       "chunks": [
         22,
         692
@@ -11833,24 +11378,10 @@
           "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
           "resolvedModule": "./src/help.js",
           "type": "harmony import specifier",
-          "active": true,
+          "active": false,
           "explanation": "",
           "userRequest": "jquery",
-          "loc": "16:44-45",
-          "moduleId": 689,
-          "resolvedModuleId": 689
-        },
-        {
-          "moduleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-          "module": "./src/help.js",
-          "moduleName": "./src/help.js",
-          "resolvedModuleIdentifier": "/Users/ian/cmu/Cylab-JSBundle/GroundTruthVerifier/src/help.js",
-          "resolvedModule": "./src/help.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "jquery",
-          "loc": "17:11-12",
+          "loc": "2:18-19",
           "moduleId": 689,
           "resolvedModuleId": 689
         },
@@ -11864,7 +11395,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "jquery",
-          "loc": "12:35-51",
+          "loc": "64:32-48",
           "moduleId": 44,
           "resolvedModuleId": 44
         }
@@ -13856,41 +13387,6 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 221,
-      "sizes": {
-        "runtime": 221
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/global",
-      "name": "webpack/runtime/global",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        57
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
       "size": 88,
       "sizes": {
         "runtime": 88
@@ -14241,41 +13737,6 @@
       "type": "module",
       "moduleType": "runtime",
       "layer": null,
-      "size": 123,
-      "sizes": {
-        "runtime": 123
-      },
-      "built": false,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "webpack/runtime/node module decorator",
-      "name": "webpack/runtime/node module decorator",
-      "nameForCondition": null,
-      "index": null,
-      "preOrderIndex": null,
-      "index2": null,
-      "postOrderIndex": null,
-      "optional": false,
-      "orphan": false,
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "",
-      "chunks": [
-        57
-      ],
-      "assets": [],
-      "reasons": [],
-      "usedExports": null,
-      "providedExports": [],
-      "optimizationBailout": [],
-      "depth": null
-    },
-    {
-      "type": "module",
-      "moduleType": "runtime",
-      "layer": null,
       "size": 28,
       "sizes": {
         "runtime": 28
@@ -14352,11 +13813,11 @@
       "assets": [
         {
           "name": "index.bundle.js",
-          "size": 204988
+          "size": 134184
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 204988,
+      "assetsSize": 134184,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -14372,11 +13833,11 @@
       "assets": [
         {
           "name": "help.bundle.js",
-          "size": 219971
+          "size": 219861
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 219971,
+      "assetsSize": 219861,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -14394,11 +13855,11 @@
       "assets": [
         {
           "name": "index.bundle.js",
-          "size": 204988
+          "size": 134184
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 204988,
+      "assetsSize": 134184,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
@@ -14414,11 +13875,11 @@
       "assets": [
         {
           "name": "help.bundle.js",
-          "size": 219971
+          "size": 219861
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 219971,
+      "assetsSize": 219861,
       "auxiliaryAssets": [],
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,

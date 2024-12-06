@@ -1,5 +1,6 @@
 // webpack.config.js
 const path = require('path');
+const { library } = require('webpack');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
@@ -10,7 +11,8 @@ module.exports = {
     output: {
         filename: '[name].bundle.js', // The name of your bundled file
         path: path.resolve(__dirname, 'dist'), // Output directory
-        publicPath: '/' // Necessary for the dev server
+        publicPath: '/', // Necessary for the dev server
+        // library: ['Mylib', '[name]']
     },
     devServer: {
         static: {

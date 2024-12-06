@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const { spawn } = require('child_process');
 const { path } = require('path');
 const fs = require('fs');
@@ -5,19 +6,20 @@ const { dependencies } = require('webpack');
 
 var detectedLib = {};
 var missedLib = {};
-
 var extension = 'PT';
+
+const CDN_GROUND_TRUTH_PATH = './dep-option.json';
 
 // read argument
 if(process.argv.length > 2){
     const extension_param = process.argv[2].toLowerCase();
-    if (extension_param === 'pt' || extension_param === 'p'){
+    if (extension_param === '--pt' || extension_param === '-p'){
         extension = 'PT';
-        console.log('Extension: PTdetector');
+        console.log('Extension: PTdetector\n');
     }
-    else if (extension_param === 'ldc' || extension_param === 'l'){
+    else if (extension_param === '--ldc' || extension_param === '-l'){
         extension = 'LDC';
-        console.log('Extension: LDC');
+        console.log('Extension: LDC\n');
     }
     else{
         console.error("Invalid argument. Please enter 'PT' or 'LDC'.");
@@ -27,6 +29,7 @@ if(process.argv.length > 2){
 else{
     console.log('No argument provided. Default extension is PT.');
 }
+
 
 // Usage in an async function
 async function roundTest() {    
@@ -54,12 +57,12 @@ async function roundTest() {
         if(data.includes('detected-lib-PT:')){
             const clientDetectedLibArr = eval(data.toString().split('detected-lib-PT: ')[1].trim());
             for (var i of clientDetectedLibArr) detectedLib[i.split(':')[0].replace(/-/g, '').toLowerCase()] = '';
-            console.log("PT detectedLib: ", detectedLib);
+            // console.log("PT detectedLib: ", detectedLib);
         }
         if(data.includes('detected-lib-LDC:')){
             const clientDetectedLibArr = eval(data.toString().split('detected-lib-LDC: ')[1].trim().replace(/-/g, '').toLowerCase());
             for(var i of clientDetectedLibArr) detectedLib[i.name] = '';
-            console.log("LDC detectedLib: ", detectedLib);
+            // console.log("LDC detectedLib: ", detectedLib);
         }
     });
 
@@ -97,13 +100,47 @@ async function roundTest() {
             delete dependencies[key];
         }
     }
+    // console.log("Ground truth: ", dependencies);
+
+    // read ground truth from dep-option.json
+    const cdn_dep = fs.readFileSync(CDN_GROUND_TRUTH_PATH, 'utf8');
+    const cdn_dep_json = JSON.parse(cdn_dep);
+    for(var key of Object.keys(cdn_dep_json['cdn'])){
+        key = key.replace(/-/g, '').toLowerCase();
+        if(dependencies[key] === undefined){
+            dependencies[key] = '';
+        }
+    }
+    // console.log("After CDN ground truth: ", dependencies);
+
+
+    // remove all white spaces, '-', "js" from the keys
+    for(const key of Object.keys(detectedLib)){
+        const newkey = key.replace(/\./g, '').replace(/-/g, '').replace(/\s/g, '').replace(/js/g, '').toLowerCase()
+        if (newkey !== key){
+            detectedLib[newkey] = detectedLib[key];
+            delete detectedLib[key];
+        }
+    }
+    console.log("Detection: ", JSON.stringify(detectedLib), '\n');
+
+    for(const key of Object.keys(dependencies)){
+        const newkey = key.replace(/\./g, '').replace(/-/g, '').replace(/\s/g, '').replace(/js/g, '').toLowerCase()
+        if (newkey !== key){
+            dependencies[newkey] = dependencies[key];
+            delete dependencies[key];
+        }
+    }
+    // console.log("After removal ground truth: ", dependencies);
+
     for(const key of Object.keys(dependencies)){
         if(detectedLib[key] === undefined){
             missedLib[key] = dependencies[key];
         }
     }
-    console.log("Ground truth: ", dependencies);
-    console.log("Missed libraries: ", missedLib);
+
+    console.log("Ground truth: ", JSON.stringify(dependencies), '\n');
+    // console.log("Missed libraries: ", missedLib);
     console.log("Hit rate: ", ((Object.keys(dependencies).length - Object.keys(missedLib).length)/Object.keys(dependencies).length)*100, "%");
 }
   
