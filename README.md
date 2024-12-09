@@ -3,8 +3,8 @@ This is a tool to evaluate how good a library detector extension is.
 
 Current features include:
 - Dynamically insertion of cdn dependencies
-- Generation of site that uses the specified dependencies in package.json and dep-option.json
-- NodeJS dependencies can be specified in package.json and will only be count into ground truth if used
+- Generation of sites that use the specified dependencies in package.json and dep-option.json
+- NodeJS dependencies can be specified in package.json and will only be count into ground truth if actually used
 - Currently supported detector include:
     - [Library-detector-for-Chrome (LDC)](https://github.com/johnmichel/Library-Detector-for-Chrome)
     - [PTdetector](https://github.com/aaronxyliu/PTdetector)
