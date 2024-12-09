@@ -2,13 +2,13 @@
 This is a tool to evaluate how good a evalutor extension is
 Current feature includes:
 - Dynamically insertion of cdn dependencies
-- nodeJS dependencies can be specified in package.json and will only be count into ground truth if used
 - Generation of site that uses the specified dependencies in package.json and dep-option.json
+- NodeJS dependencies can be specified in package.json and will only be count into ground truth if used
 
 
 # Setup
 ```
-# this sets up the dependecies for this codebase
+# This sets up the dependecies for this codebase
 bash setup.sh
 ```
 
@@ -27,7 +27,7 @@ bash visit.sh -p  # runs LDC
 
 # Experiment on different ground truths
 There are two ways to change the ground truth:
-1. modify the *dep-option.json* file, feel free to make changes to the "cdn" object, the name for the packages should be identical to that of *jsdelivr.com*, for example, lodash will only work as `lodash` instead of `lo-dash`, or `lodash.js`
+1. Modify the *dep-option.json* file, feel free to make changes to the "cdn" object, the name for the packages should be identical to that of *jsdelivr.com*, for example, lodash will only work as `lodash` instead of `lo-dash`, or `lodash.js`
 
     - The keys listed here will automatically get transformed to a script tag in *index.html* with the right url source.
     - These source are included to the webpage via CDN import
