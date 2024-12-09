@@ -4,7 +4,9 @@ Current feature includes:
 - Dynamically insertion of cdn dependencies
 - Generation of site that uses the specified dependencies in package.json and dep-option.json
 - NodeJS dependencies can be specified in package.json and will only be count into ground truth if used
-
+- Currently supported detector includes
+    - [Library-detector-for-Chrome (LDC)](https://github.com/johnmichel/Library-Detector-for-Chrome)
+    - [PTdetector](https://github.com/aaronxyliu/PTdetector)
 
 # Setup
 ```
@@ -22,12 +24,12 @@ bash setup.sh
 ```
 bash visit.sh
 bash visit.sh -l  # runs LDC
-bash visit.sh -p  # runs LDC
+bash visit.sh -p  # runs PTdetector
 ```
 
 # Experiment on different ground truths
 There are two ways to change the ground truth:
-1. Modify the *dep-option.json* file, feel free to make changes to the "cdn" object, the name for the packages should be identical to that of *jsdelivr.com*, for example, lodash will only work as `lodash` instead of `lo-dash`, or `lodash.js`
+1. Modify the *dep-option.json* file, feel free to make changes to the "cdn" object, the name for the packages should be identical to that of [jsdelivr.com](https://www.jsdelivr.com), for example, lodash will only work as `lodash` instead of `lo-dash`, or `lodash.js`
 
     - The keys listed here will automatically get transformed to a script tag in *index.html* with the right url source.
     - These source are included to the webpage via CDN import
