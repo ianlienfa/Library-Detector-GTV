@@ -1,7 +1,18 @@
 {
     "cdn": {
-    },
-    "webpack": {
-
+        "@amcharts/amcharts5": {},
+        "apexcharts": {},
+        "backbone": {},
+        "base2": {},
+        "boomerangjs": {},
+        "bootstrap": {},
+        "chartist": {},
+        "chart.js": {},
+        "controljs": {},
+        "core-js": {},
+        "d3": {},
+        "dc": {},
+        "dojo": {},
+        "echarts": {}
     }
 }
