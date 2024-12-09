@@ -1,5 +1,6 @@
 # Library-Detector-Gound-Truth-Verificator
-This is a tool to evaluate how good a evalutor extension is
+This is a tool to evaluate how good a evalutor extension is.
+
 Current features include:
 - Dynamically insertion of cdn dependencies
 - Generation of site that uses the specified dependencies in package.json and dep-option.json
