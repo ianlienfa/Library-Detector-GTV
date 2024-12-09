@@ -1,5 +1,5 @@
 # Library-Detector-Gound-Truth-Verificator
-This is a tool to evaluate how good a evalutor extension is.
+This is a tool to evaluate how good a library detector extension is.
 
 Current features include:
 - Dynamically insertion of cdn dependencies
